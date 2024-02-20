@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div id="balance-card">
+      <div id="balance">
+        <h1>My balance</h1>
+        <span id="money">$921.48</span>
+      </div>
+      <img src="./images/logo.svg" alt="logo of the company" id="logo">
+    </div>
+    <div id="spending-container">
+      <h2>Spending - Last 7 days</h2>
+      <div id="spending-graph">
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">mon</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">tue</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">wed</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">thu</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">fri</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">sat</span>
+        </div>
+        <div class="data-column">
+          <span class="money"></span>
+          <div class="bars"></div>
+          <span class="day">sun</span>
+        </div>
+      </div>
+      <hr>
+        <span class="total-month">Total this month</span>
+        <div class="total">
+          <span class="total-money">$478.33</span>
+          <div class="text-container">
+            <span class="percentage">+2.4%</span>
+            <span class="last-month-span">from last month</span>
+          </div>
+        </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
